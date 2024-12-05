@@ -18,7 +18,7 @@
                     <h3 class="text-xl leading-normal" >Leading in hardware services since 2004, with a <br> focus on laptop sales and expert support.</h3>
                     <h1  id="text-anime" class="text-5xl inline-block font-bold leading-tight">Your perfect <span class="text-red-600" >Hardware</span><br> <span class="text-red-600" >Solution</span> and Sales Partner</h1>
                 </div>
-                <button @click="router.push('/')" class="px-7 py-2 rounded-full bg-red-400 text-white font-bold mt-7">Explore More</button>
+                
                 
             </div>
             <div  id="home-img" class="w-[400px] overflow-hidden rounded-full flex justify-center items-center " >
@@ -52,7 +52,7 @@
             </div>
         </div>
         <About/>
-        <Service/>
+       
         <choose/>
         <How/>
         <client/>

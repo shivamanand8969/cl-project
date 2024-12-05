@@ -7,7 +7,7 @@
                 <div class="flex space-x-10 max-1100:flex-col " >
                     <div class="w-[300px] mb-6 text-[15px]  max-1100:translate-x-5" >
                         <h3 class="text-red-500 font-bold mb-3" >1. Expertise and Experience</h3>
-                        <p>With over 15 years of experience, our skilled technicians provide top-notch PC and chip-level repairs, ensuring your technology is in expert hands.</p>
+                        <p>With over 15 years of experience, our skilled technicians provide top-notch PC and chip-level repairs, ensuring  technology is in expert hands.</p>
                     </div>
                     <div class="w-[300px] mb-6 text-[15px]" >
                         <h3 class="text-red-500 font-bold mb-3" >2. Comprehensive Solutions</h3>

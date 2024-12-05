@@ -35,7 +35,11 @@
                 <li><RouterLink to="/service" active-class="active" >Services</RouterLink></li>
                 <li><RouterLink to="/contact" active-class="active" >Contact</RouterLink></li>
             </ul>
-            <button class="w-[130px] h-[50px] rounded-full text-md bg-purple-950 text-white" id="contact-btn"><i class="fas fa-phone mr-3" ></i>Call Now </button>
+<a href="tel:+98802 19196">
+  <button class="w-[130px] h-[50px] rounded-full text-md bg-purple-950 text-white" id="contact-btn">
+    <i class="fas fa-phone mr-3"></i>Call Now
+  </button>
+</a>
             <button class="hidden" id="bar" @click="navbar_mobilemode = true"><i class="fas fa-bars text-3xl"></i></button>
         </div>
     </nav>

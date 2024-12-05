@@ -20,10 +20,10 @@
             </div>
             <div class="w-[300px] h-[1px] mt-[30px] mb-4 bg-gray-500" ></div>  
             <div>
-                <p>Phoenix Technology is your one-stop solution for all computer hardware, laptop sales, and networking needs. From selling new and refurbished laptops of all brands, repairing desktops, and assembling branded PCs to setting up secure network infrastructures, we ensure your technology runs smoothly and efficiently. Our team of certified professionals is skilled in diagnosing and resolving both hardware and software issues, providing reliable support and maintenance for businesses and individuals alike.</p><br> <span class="mt-2"> Whether it’s upgrading your system, optimizing network performance, selling network accessories, or troubleshooting complex IT challenges, Phoenix Technology is committed to delivering fast, efficient, and cost-effective solutions tailored to your needs.</span>
+                <p>Phoenix Technology is  one-stop solution for all computer hardware, laptop sales, and networking needs. From selling new and refurbished laptops of all brands, repairing desktops, and assembling branded PCs to setting up secure network infrastructures, we ensure  technology runs smoothly and efficiently. Our team of certified professionals is skilled in diagnosing and resolving both hardware and software issues, providing reliable support and maintenance for businesses and individuals alike.</p><br> <span class="mt-2"> Whether it’s upgrading your system, optimizing network performance, selling network accessories, or troubleshooting complex IT challenges, Phoenix Technology is committed to delivering fast, efficient, and cost-effective solutions tailored to your needs.</span>
             </div>  
 
-            <button  @click="router.push('/')" class="w-[150px] h-[40px] mt-11 rounded-full bg-red-500 text-white font-bold" >Read More</button>
+           
         </div>
     </main>
 </template>

@@ -48,8 +48,8 @@ const submitForm = (e) => {
       <div class="mx-[200px] max-1100:mx-1">
         <div class="py-20 max-1100:py-12 px-12 max-1100:px-5 flex max-1100:flex-col space-x-24 max-1100:space-x-0 max-1100:space-y-10 bg-white">
           <div class="w-[500px] max-1100:w-full">
-            <h1 class="text-5xl font-bold text-red-500 mb-10">
-              Contact <span class="text-red-700 opacity-65">Us</span>
+            <h1 class="text-4xl font-bold text-red-500 mb-10">
+              Apllication Form
             </h1>
             <div class="flex flex-col space-y-7 text-slate-800">
               <p>Contact us if you require assistance with any of the rental equipment or services we offer.</p>
@@ -60,7 +60,7 @@ const submitForm = (e) => {
                 </div>
                 <div>
                   <h1 class="font-bold mb-2">Email</h1>
-                  <p>jalal23@gmail.com</p>
+                  <p>nayanagowdaammu9538@gmail.com</p>
                 </div>
               </div>
             </div>
