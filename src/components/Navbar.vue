@@ -21,7 +21,7 @@
                 <li @click="routing('/')" >Home</li>
                 <li @click="routing('/about')" >About</li>
                 <li @click="routing('/service')" >Services</li>
-                <li @click="routing('/contact')" >Contact</li>
+                <li @click="routing('/contact')" >Application Form</li>
                 <a href="tel:+98802 19196">Call Now</a>
         </ul>
     </div>
@@ -34,7 +34,7 @@
                 <li><RouterLink to="/" active-class="active">Home</RouterLink></li>
                 <li><RouterLink to="/about" active-class="active">About</RouterLink></li>
                 <li><RouterLink to="/service" active-class="active" >Services</RouterLink></li>
-                <li><RouterLink to="/contact" active-class="active" >Contact</RouterLink></li>
+                <li><RouterLink to="/contact" active-class="active" >Application </RouterLink></li>
             </ul>
 <a href="tel:+98802 19196">
   <button class="w-[130px] h-[50px] rounded-full text-md bg-purple-950 text-white" id="contact-btn">
