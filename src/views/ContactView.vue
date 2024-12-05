@@ -22,7 +22,7 @@ const submitForm = (e) => {
     const message = form_data.value.message;
 
     // Create the WhatsApp message
-    const whatsappNumber = "9902271251"; // Your WhatsApp number
+    const whatsappNumber = "919902271251"; // Your WhatsApp number
     const whatsappMessage = `Hello, here are the details:\n\nName: ${fname} ${lname}\nEmail: ${email}\nContact: ${contact}\nMessage: ${message}`;
     const encodedMessage = encodeURIComponent(whatsappMessage);
 
