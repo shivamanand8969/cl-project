@@ -22,7 +22,7 @@
                 <li @click="routing('/about')" >About</li>
                 <li @click="routing('/service')" >Services</li>
                 <li @click="routing('/contact')" >Application Form</li>
-                <a href="tel:+98802 19196">Call Now</a>
+                <a href="tel:+918867393755">Call Now</a>
         </ul>
     </div>
     </transition>

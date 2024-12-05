@@ -15,13 +15,28 @@ let errorMessage = ref("")
 
 const submitForm = (e) => {
     e.preventDefault();    
+        const fname = form_data.value.fname;
+    const lname = form_data.value.lname;
+    const email = form_data.value.email;
+    const contact = form_data.value.contact;
+    const message = form_data.value.message;
+
+    // Create the WhatsApp message
+    const whatsappNumber = "9902271251"; // Your WhatsApp number
+    const whatsappMessage = `Hello, here are the details:\n\nName: ${fname} ${lname}\nEmail: ${email}\nContact: ${contact}\nMessage: ${message}`;
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+
+    // Redirect to WhatsApp with the message
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+    window.open(whatsappURL, '_blank'); // Opens in a new tab
+    return;
     const formData = new FormData();
     formData.append('fname', form_data.value.fname);
     formData.append('lname', form_data.value.lname);
     formData.append('email', form_data.value.email);
     formData.append('contact', form_data.value.contact);
     formData.append('message', form_data.value.message);
-
+ 
     fetch(scriptURL, { method: 'POST', body: formData })
         .then(
             (response) => {
@@ -53,12 +68,16 @@ const submitForm = (e) => {
             </h1>
             <div class="flex flex-col space-y-7 text-slate-800">
               <p>Contact us if you require assistance with any of the rental equipment or services we offer.</p>
-              <div class="flex justify-between">
-                <div>
+              <div class="flex justify-between flex-col">
+                <div class="flex gap-2">
                   <h1 class="font-bold mb-2">Phone</h1>
-                  <p>98802 19196</p>
+                  <p>8867393755</p>
                 </div>
-                <div>
+                <div class="flex gap-2">
+                  <h1 class="font-bold mb-2">Phone</h1>
+                  <p>9902271251</p>
+                </div>
+                <div class="flex gap-2">
                   <h1 class="font-bold mb-2">Email</h1>
                   <p>nayanagowdaammu9538@gmail.com</p>
                 </div>
